@@ -1,7 +1,12 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    var username: String = "Rakib"
+    username = "Mukta" // when using var then we can change the value of this variable
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    val age: Int = 22
+    //age = 25 when we're using val then we can't change this variable
+
+
+    println("Hello $username ! you are $age years old")
+
+
 }
