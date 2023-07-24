@@ -1,0 +1,7 @@
+### IntelliJ IDEA ###
+out/
+/*.idea/
+Kotlin_Project.iml
+### Mac OS ###
+.DS_Store
+/*.iml
